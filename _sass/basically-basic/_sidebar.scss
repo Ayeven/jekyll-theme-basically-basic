@@ -72,7 +72,7 @@
     height: 100%;
     padding: 1.5em;
     background-color: $sidebar-background-color;
-    overflow-x: hidden;
+    overflow-x: auto;
     -webkit-box-shadow: inset -1em 0 5em 0 rgba(0, 0, 0, 0.125);
     box-shadow: inset -1em 0 5em 0 rgba(0, 0, 0, 0.125);
 
@@ -86,7 +86,7 @@
     position: relative;
     margin-bottom: 1.5rem;
     padding-bottom: 0.5rem;
-    font-weight: bold;
+    font-weight: normal;
     line-height: 1;
 
     a {
@@ -161,6 +161,6 @@
 
 .sidebar-toggle-label {
   margin-left: 0.5rem;
-  font-weight: bold;
+  font-weight: normal;
   color: $text-color;
 }
